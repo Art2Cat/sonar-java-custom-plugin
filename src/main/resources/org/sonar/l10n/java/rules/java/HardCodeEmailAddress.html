@@ -1,0 +1,18 @@
+<p>Hardcoding Email addresses is not allow. </p>
+
+<ul>
+  <li> The developers will have to do a rapid fix every time this happens, instead of having an operation team change a configuration file. </li>
+  <li> It forces the same address to be used in every environment (dev, sys, qa, prod). </li>
+</ul>
+<h2>Recommended Coding Practices</h2>
+<ul>
+  <li> make the Email address configurable. put it in the spring configuration or load in database </li>
+</ul>
+<h2>Noncompliant Code Example</h2>
+<pre>
+  @Value("${emailAddress}")
+  private String emailAddress; // Noncompliant
+</pre>
+
+<h2>See</h2>
+

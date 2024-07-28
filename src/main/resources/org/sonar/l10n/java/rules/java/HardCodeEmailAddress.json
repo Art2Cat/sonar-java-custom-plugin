@@ -1,0 +1,22 @@
+{
+  "title": "Using hardcoded email addresses is not allowed",
+  "type": "Bug",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "bugs",
+  ],
+  "standards": [
+    "CERT",
+    "OWASP Top 10"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "None",
+  "sqKey": "HardCodeEmailAddress",
+  "scope": "Main",
+  "securityStandards": {
+  }
+}
